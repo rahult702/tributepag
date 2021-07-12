@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+section{
+    background: #eeeeee;
+    width: 83%;
+    margin: 30px auto 50px auto;
+    padding: 70px 60px 50px 60px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head{
+    text-transform: capitalize;
+    font-size: 63px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.year {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.bio {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.first-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 7px 5px;
+    margin-bottom: 15px;
+}
+
+.first-container p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.30rem;
+}
+
+.image-container {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.image-container img {
+    border-radius: 50%;
+    margin-bottom: 1px;
+}
+
+.para {
+    width: 100%;
+    height: 2.25rem;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.details {
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail{
+    font-weight: 400;
+    margin-bottom: 0.75rem;
+}
+
+.list{
+    font-size: 0.90rem;
+    margin: 0 0 1.25rem 2rem;
+    line-height: 1.23rem;
+}
+
+.wiki{
+    font-weight: 400;
+    font-style: italic;
+}
+
+.wiki a{
+    text-decoration: none;
+    color: blue;
+}
+
+.author-bio{
+    margin-left: 7rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.author-bio a{
+    text-decoration: none;
+    color: blue;
+}
+
