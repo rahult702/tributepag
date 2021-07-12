@@ -115,3 +115,34 @@ section{
     color: blue;
 }
 
+@media (max-width: 425px){
+    .image-container img{
+        width: 75%;
+    }
+
+    section{
+        padding: 50px 20px;
+    }
+
+    .head{
+        font-size: 2.5rem;
+    }
+
+    .year{
+        font-size: 1.75rem;
+    }
+
+    .bio{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .detail{
+        font-size: 1.25rem;
+    }
+
+    .author-bio{
+        margin-left: 0;
+        text-align: center;
+    }
+}
